@@ -17,6 +17,8 @@ import {
     docker,
     meta,
     starbucks,
+    exp_icon_coding,
+    exp_icon_efficiency,
     tesla,
     shopify,
     carrent,
@@ -42,21 +44,21 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "FullStack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "SQL and NoSQL Database Experienced",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: " Backend Specialist",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Agile practitioner",
       icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -116,140 +118,148 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Developer",
+//      company_name: "Starbucks",
+      company_name: "Freelancer",
+      icon: exp_icon_coding,
+//      icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Development and maintainance of web applications using JavaScript, TypeScript, ReactJS, Node.js. and PHP",
+        "Managing databases, encompassing MS SQL Server, Postgres, and MongoDB.", 
+        "Experienced in working with various cloud environments, including AWS and Azure.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      title: "Agile Team Leader",
+      company_name: "Outsourcing",
+      icon: exp_icon_efficiency,
+      iconBg: "#383E56",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Agile team leader committed to delivering high-quality software solutions that meet business objectives throughout agile practices.",
+        "Project BCP Bank - Technologies: Azure, Cosmos DB, Mongo Atlas, Java, kotlin, swift",
+        "Project Grupo EFE Retail - Tech Stack: Flutter, Php, Mysql, javascript",
+        "Project Telefónica del Perú - Tech Stack: Java, angular, kotlin, swift",
+        "Project Tottus Supermarket - Tech Stack: Node Js, Mongo DB, kafka, Google Cloud",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Tech Lead",
+      company_name: "SONIEM - National Society of Music Performers",
+      icon: exp_icon_coding,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+      date: "Oct 2016 – Sep 2019",
+      points: [       
+        "Analysis, design, and implementation of the royalty management system in PHP, Js with PostgreSQL.",
+        "Implementation of hybrid cloud in AWS for the registration of Musical Works by affiliates. BD on premise and Front-End in cloud.",
+        "Proposal of the mathematical model for the indirect distribution of royalties.",
+        "Development of new functionalities for a better optimization of times in the areas of customer service, distribution and distribution, administrative area and general management.",
+        "Development of tools for the proactive analysis of information, alerting table inconsistencies for their respective correction.",
+        "Sending communications via email and personalized greetings on social networks.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Technical leader",
+      company_name: "OLTASIS",
+      icon: exp_icon_efficiency,
+      iconBg: "#383E56",
+      date: "Jan 2011 – Dec 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Analysis and development of IT projects like:",
+        "G-DAC: SaaS solution for telecommunication dealers. It count with a Commercial, logistic, financial, accountant module. Connecting to 15 branches per client. Using PHP, JavaScript, PostgreSQL",
+        "MEDINUB: Web and Android solution for dental care centers.",
       ],
     },
+
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "... he is an excellent professional who has demonstrated his talent both in the world of agility and in software development. His ability to quickly adapt to changes and his meticulous approach to addressing technical challenges stand out.",
+      name: "Johana Ferrer",
+      designation: "Agile Delivery Leader",
+      company: "Inchcape - UK",
+      image: "https://media.licdn.com/dms/image/D4E03AQHj9J2cvQD8rw/profile-displayphoto-shrink_100_100/0/1687184190903?e=1723680000&v=beta&t=iC31G93uh5OE2WiX0yljsUF_kgDlPVXy1BMSUgaDkP0",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Ricardo ... also possesses strong technical expertise, contributing to the maturity of teams with a focus on delivery quality, while maintaining a people-centric approach.",
+      name: "Kelly Salgado",
+      designation: "Scrum Master",
+      company: "Interbank",
+      image: "https://media.licdn.com/dms/image/D4E03AQEjIJbPPA9rIA/profile-displayphoto-shrink_100_100/0/1714233909413?e=1723680000&v=beta&t=eIz9EHmSTIWJfYyUnTidBONba5mHRnW0AOEmJR1v4-E",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "... always in tune with his team and focused on helping them grow every day. He also has a strong sense of responsibility, committing to project objectives and making a positive impact on people. ",
+      name: "Miguel Perez Torres",
+      designation: "Agile Project Manager",
+      company: "Globant",
+      image: "https://media.licdn.com/dms/image/D4E03AQHDWyFsX4YE3A/profile-displayphoto-shrink_100_100/0/1697774234928?e=1723680000&v=beta&t=3xkoMSLSRi-7RQDSA9ew-jyZl5ysXrDGN4EilhGBPGw",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "NestJs API for Ecommerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Ecommerce API developed with NestJS! This backend project focuses on providing a robust and scalable API for an ecommerce website.",
       tags: [
         {
-          name: "react",
+          name: "NestJs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PostgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "TypeScript",
           color: "pink-text-gradient",
+        },
+        {
+          name: "TypeORM",
+          color: "green-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Ingeproc Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The website for Ingeproc was developed to showcase their electrical solutions. The design focuses on user-friendly navigation and mobile responsiveness.",
       tags: [
         {
-          name: "react",
+          name: "Wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MySql",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://ingeproc.pe/",
     },
     {
-      name: "Trip Guide",
+      name: "Lawyer Studio Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "I developed a professional website for a law firm client, focusing on sophisticated design and seamless functionality. The site highlights the firm's expertise while enhancing client engagement.",
       tags: [
+        {
+          name: "React.js",
+          color: "green-text-gradient",
+        },
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
@@ -258,7 +268,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://chengcastaneda.com/",
     },
   ];
   
